@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "André R. P. Correa"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My name is André Rittner Pires Correa, I hold a diploma degree in Aeronautical Engineering by The University of São Paulo and, currently, I am a PhD Researcher at the École de Technologie Supérieure. My main research interest is Thermoplastic Composites Welding, although I have previously worked with Composites Fracture and Thermoset Prepregs. Forming Simulations"
+  bio    : "My name is André Rittner Pires Correa, I hold a diploma degree in Aeronautical Engineering by The University of São Paulo and, currently, I am a PhD Researcher at the École de Technologie Supérieure. My main research interest is Thermoplastic Composites Welding, although I have previously worked with Composites Fracture and Thermoset Prepregs Forming Simulations"
   location : "Montreal, Quebec, Canada"
   links:
     - label: "LinkedIn"
