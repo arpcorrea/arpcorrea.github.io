@@ -5,7 +5,7 @@ header:
 excerpt: "This code solves the 2D Heat transfer problem of 2 adherents in contact with a heater placed between them. The adherents do not exhange hit among them. "
 date: May 15, 2020
 categories: [Python Coding]
-tags: [Heat Transfer] [Python]
+tags: [Heat Transfer]
 ---
 
 ### Solving 2-D Heat Transfer problem using Python  
