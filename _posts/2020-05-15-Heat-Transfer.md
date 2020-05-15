@@ -1,7 +1,7 @@
 ---
 title: "2D Heat Transfer Problem"
 excerpt: "This code solves the 2D Heat transfer problem of 2 adherents in contact with a heater placed between them. The adherents do not exhange hit among them. "
-date: May 16, 2020
+date: May 15, 2020
 categories:
   - Code
 tags:
