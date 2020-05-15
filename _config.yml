@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "André Rittner Pires Correa"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My name is André Rittner Pires Correa, a PhD Researcher at <a href="https://www.cct.lsu.edu/">Center for Computation and Technology</a>  École de Technologie Supérieure ÉTS"
+  bio    : "My name is André Rittner Pires Correa, I hold a diploma degree in Aeronautical Engineering by The University of São Paulo and, currently, I am a PhD Researcher at the École de Technologie Supérieure ÉTS. Today, my main research interest is focused on Thermoplastic Composites Welding, although have previously worked with Composites Fracture and Forming Simulations of Thermoset Prepregs."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
