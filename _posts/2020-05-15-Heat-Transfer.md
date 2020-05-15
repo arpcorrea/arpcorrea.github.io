@@ -1,8 +1,11 @@
 ---
-title: Heat Transfer
-categories: Posts
-tags: [Python][Heat Transfer]
-author: arpc
+title: "Personal Website! Mission Accomplished :)"
+header:
+  teaser: /assets/images/thumbnails/my-website-thumb-800.jpg
+excerpt: "Starter Guide for those who want to create their own website for free"
+date: August 28, 2019
+tags:
+  - Minimal Mistakes Jekyll
 ---
 
 ### Solving 2-D Heat Transfer problem using Python  
