@@ -73,7 +73,8 @@ author:
       url: "https://github.com/"
     - label: "Email"
       icon: "fas fa-envelope-square"
-      email: andre.rittner-pires-correa.1@ens.etsmtl.ca
+      url: mailto:andre.rittner-pires-correa.1@ens.etsmtl.
+   
 
 footer:
   links:
@@ -85,7 +86,7 @@ footer:
       url: "https://github.com/"
     - label: "Email"
       icon: "fas fa-envelope-square"
-      email: andre.rittner-pires-correa.1@ens.etsmtl.ca
+      url: mailto:andre.rittner-pires-correa.1@ens.etsmtl.
 
 defaults:
   # _posts
