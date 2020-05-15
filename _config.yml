@@ -70,7 +70,7 @@ author:
       url: "https://www.linkedin.com/in/andrerpcorrea/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/arpcorrea"
     - label: "Email"
       icon: "fas fa-envelope-square"
       url: mailto:andre.rittner-pires-correa.1@ens.etsmtl.
@@ -83,7 +83,7 @@ footer:
       url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/arpcorrea"
     - label: "Email"
       icon: "fas fa-envelope-square"
       url: mailto:andre.rittner-pires-correa.1@ens.etsmtl.
