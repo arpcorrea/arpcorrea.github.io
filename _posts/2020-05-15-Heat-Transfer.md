@@ -1,8 +1,8 @@
 ---
-title: "2D Heat Transfer Problem with no contact between adherents"
+title: "2D Heat Transfer Problem"
 header:
   teaser: /assets/images/thumbnails/my-website-thumb-800.jpg
-excerpt: "Starter Guide for those who want to create their own website for free"
+excerpt: "This code solves the 2D Heat transfer problem of 2 adherents in contact with a heater placed between them. The adherents do not exhange hit among them. "
 date: May 15, 2020
 categories: blog
 tags: [Python Coding]
