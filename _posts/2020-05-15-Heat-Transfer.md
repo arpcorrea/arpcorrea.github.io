@@ -38,7 +38,7 @@ Thus, the state of the system at time step n+1, is calculated from its state at 
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;\Delta t = \frac{1}{D_{max}}\frac{(\Delta x\Delta y)^2}{(\Delta x)^2 + (\Delta y)^2}" title="Max time step" />
 
 #### Python Code
-We are ready for the source code. Before starting, the code here described was developed on python 2.7. The first step is to import necessary modules.
+We are ready for the source code. Before starting, the code here described was developed on Python 3. The first step is to import necessary modules.
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
@@ -47,7 +47,7 @@ import glob
 import itertools
 ```
 
-In sequence, it was defined the time step and set the "plot window grafical output" 
+In sequence, it is defined the time step and set the "plot window grafical output" 
 
 ```python
 #Set Time Step
@@ -156,7 +156,7 @@ T[int(nx/2-1), int(0.2*nx):int(0.8*nx+1)] = 100
 T0=T.copy()
 ```
 
-We are almost in the end... We will now start doing the calculation. We will define 10000 calculation steps (we had previously defined the lenght of those steps dt=0.0002 units of time), meaning that the calculation represents a total duration of 2 units of time. We will also store one figure every 500 steps, representing one figure every 0,1 unit of time.
+We are almost in the end... We will now start doing the calculation. We will define 10000 calculation steps (we had previously defined the lenght of those steps dt=0.0002 units of time), meaning that the calculation represents a total duration of 2 units of time. We will also store one figure every 500 steps, representing one figure every 0.1 unit of time.
 
 ```python
 # Number of timesteps
