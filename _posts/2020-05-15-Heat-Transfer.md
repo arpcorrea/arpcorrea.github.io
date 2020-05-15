@@ -4,8 +4,8 @@ header:
   teaser: /assets/images/thumbnails/my-website-thumb-800.jpg
 excerpt: "Starter Guide for those who want to create their own website for free"
 date: May 15, 2020
-tags:
-  - Python Coding
+categories: blog
+tags: [Python Coding]
 ---
 
 ### Solving 2-D Heat Transfer problem using Python  
