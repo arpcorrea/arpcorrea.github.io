@@ -60,7 +60,9 @@ plugins:
 author:
   name   : "André Rittner Pires Correa"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "My name is André Rittner Pires Correa, a PhD Researcher at the <a href="https://www.etsmtl.ca/en/home">École de Technologie Supérieure ÉTS</a>.I received my diploma in Aeronautical Engineering by the  
+<a href="http://www.eesc.usp.br/portaleesc/en/School of Engineering of São Carlos </a> from the <a href="https://www5.usp.br/">University of São Paulo</a>. Today, my main research interest is focused on Thermoplastic Composites Welding, although have previously worked with Composites Fracture and Forming Simulations of Thermoset Prepregs.
+"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
