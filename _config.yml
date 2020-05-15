@@ -62,9 +62,6 @@ author:
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "My name is André Rittner Pires Correa, I hold a diploma degree in Aeronautical Engineering by The University of São Paulo and, currently, I am a PhD Researcher at the École de Technologie Supérieure ÉTS. Today, my main research interest is focused on Thermoplastic Composites Welding, although have previously worked with Composites Fracture and Forming Simulations of Thermoset Prepregs."
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin-in"
       url: "https://www.linkedin.com/in/andrerpcorrea/"
@@ -78,9 +75,9 @@ author:
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin-in"
+      url: "https://www.linkedin.com/in/andrerpcorrea/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/arpcorrea"
