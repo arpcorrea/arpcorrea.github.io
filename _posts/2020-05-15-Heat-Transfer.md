@@ -1,11 +1,11 @@
 ---
-title: "Personal Website! Mission Accomplished :)"
+title: "2D Heat Transfer Problem with no contact between adherents"
 header:
   teaser: /assets/images/thumbnails/my-website-thumb-800.jpg
 excerpt: "Starter Guide for those who want to create their own website for free"
-date: August 28, 2019
+date: May 15, 2020
 tags:
-  - Minimal Mistakes Jekyll
+  - Python Coding
 ---
 
 ### Solving 2-D Heat Transfer problem using Python  
