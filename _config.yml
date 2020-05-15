@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "André Rittner Pires Correa"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My name is André Rittner Pires Correa, a PhD Researcher at École de Technologie Supérieure ÉTS"
+  bio    : "My name is André Rittner Pires Correa, a PhD Researcher at <a href="https://www.cct.lsu.edu/">Center for Computation and Technology</a>  École de Technologie Supérieure ÉTS"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
