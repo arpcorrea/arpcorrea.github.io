@@ -12,7 +12,7 @@ tags:
 
 ### Solving 2-D Heat Transfer problem using Python  
 
-The following tries solves the classical conduction-convection problem in a 2-dimension problem. The goal is to reproduce the temperature distribution in a domain composed by two blocks of different thermal properties. A centrally located zone is constantly at a higher temperature and the two blocks do not exchange heat (ideally a vacuum between them).  
+The following tries solves the classical conduction-convection problem in a 2-dimension problem. The goal is to reproduce the temperature distribution in a domain composed by two blocks of different thermal properties. A centrally located zone is constantly at a higher temperature and the two blocks do not exchange heat among them (ideally a vacuum between them).  
 
 
 The following image shows the problem to be solved.
