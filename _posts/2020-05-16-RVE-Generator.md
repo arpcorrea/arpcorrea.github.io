@@ -191,7 +191,7 @@ flag_iteration<maxiteration.
         break
 ```
 
-Good job! You finished your RVE!! All your "accepted fibres" are stored in a list called "Finalfibres". Now, lets plot and visually check it! 
+Good job! You finished your RVE!! All your "Accepted Fibres" are stored in a list called "Finalfibres". Now, lets plot and visually check it! 
 ```python
 #Printing the RVE
 from tkinter import *
@@ -212,9 +212,171 @@ root.mainloop()  # This call BLOCKS (so your program waits until you close the w
 
 ![GitHub Logo]({{ site.url }}/assets/images/RVE.JPG)
 
-Your RVE should look like this . 
+Your RVE should look like the first figure of this post. The full code is pasted below:
+```python
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Jan  7 11:00:06 2020
 
-A final observation is here necessary: although we set Vf_target = 0.5 (meaning Vf= 50%), the random distribution algorithm (the one here described) will hardly achieve it with the ration domain/FibreDiameter here defined.
+@author: andre
+"""
+
+
+#VfTarget= float(input("Enter Volume Fraction in %  \n ")) /100.
+#X_axis = float(input("Enter the RVE X dimension (recommended <15 ) \n ")) 
+#Y_axis = float(input("Enter the RVE Y dimension (recommended <15 ) \n ")) 
+#CircleDiameter = float(input("Enter the fibre Diameter (recommended RVE min size / Diameter > 10 ) \n ")) 
+
+import math
+import random
+pi = math.pi
+
+
+
+
+VfTarget=0.5
+X_axis = 10.
+Y_axis=10.
+CircleDiameter=0.7
+maxiteration=2000
+
+#First fibres positioned: 1 centered and 1 in the 4 corners
+Finalfibres=[]
+Finalfibres.append([4,0.,0.,CircleDiameter])
+Finalfibres.append([4,X_axis,0.,CircleDiameter])
+Finalfibres.append([4,X_axis,Y_axis,CircleDiameter])
+Finalfibres.append([4,0.,Y_axis,CircleDiameter])
+Finalfibres.append([0,X_axis/2.,Y_axis/2.,CircleDiameter])
+
+
+#CURRENT VOLUMETRIC FRACTION
+Vfactual = (2*pi*(CircleDiameter/2.)**2)/(X_axis*Y_axis)
+
+#FLAG MASURING NUMBER OF ITERACTION 
+flag_iteration=0
+
+#INITIATE RANDOM fibreS
+while Vfactual <= VfTarget:
+    xCord=random.uniform(0,X_axis)
+    xCord=round(xCord,2)
+    yCord=random.uniform(0,Y_axis)
+    yCord=round(yCord,2)
+    dist = []
+    flag = 0
+#TEST DISTANCE   
+    for x in range(len(Finalfibres)):
+        dist.append(math.sqrt(((xCord-Finalfibres[x][1])**2)+((yCord-Finalfibres[x][2])**2)))        
+                 
+    if all(i >= 1.05*CircleDiameter for i in dist) == True:      
+        flag=1
+        flag_iteration = 0
+            
+    else:
+        flag=0
+        flag_iteration=flag_iteration+1
+        
+#TEST FOR fibre IN THE EDGES
+    if flag_iteration <maxiteration:
+    
+        if flag ==1:
+            
+            
+# TOP
+            if (yCord > Y_axis-0.65*CircleDiameter/2.) and (yCord < Y_axis-0.35*CircleDiameter/2.):
+                xtemp = xCord
+                ytemp = yCord-Y_axis
+                for x in range(len(Finalfibres)):
+                    dist.append(math.sqrt(((xtemp-Finalfibres[x][1])**2)+((ytemp-Finalfibres[x][2])**2)))
+                if all(i >= 1.05*CircleDiameter for i in dist) == True:      
+                    j=1
+                    Finalfibres.append([j,xCord,yCord,CircleDiameter])
+                    Finalfibres.append([j,xtemp,ytemp,CircleDiameter])
+                    Vfactual = Vfactual + pi*((CircleDiameter/2.)**2)/(X_axis*Y_axis) 
+                else:
+                    Vfactual=Vfactual
+                
+# BOTTOM
+            if (yCord < 0.65*CircleDiameter/2.) and (yCord > 0.35*CircleDiameter/2.):
+                xtemp = xCord
+                ytemp = yCord+Y_axis
+                for x in range(len(Finalfibres)):
+                    dist.append(math.sqrt(((xtemp-Finalfibres[x][1])**2)+((ytemp-Finalfibres[x][2])**2)))
+                if all(i >= 1.05*CircleDiameter for i in dist) == True:      
+                    j=-1
+                    Finalfibres.append([j,xCord,yCord,CircleDiameter])
+                    Finalfibres.append([j,xtemp,ytemp,CircleDiameter])
+                    Vfactual = Vfactual + pi*((CircleDiameter/2.)**2)/(X_axis*Y_axis) 
+                else:
+                    Vfactual=Vfactual       
+                    
+     
+# LEFT
+            if (xCord < 0.65*CircleDiameter/2.) and (xCord > 0.35* CircleDiameter/2.) :
+                xtemp = xCord+X_axis
+                ytemp = yCord
+                for x in range(len(Finalfibres)):
+                    dist.append(math.sqrt(((xtemp-Finalfibres[x][1])**2)+((ytemp-Finalfibres[x][2])**2)))
+                if all(i >= 1.05*CircleDiameter for i in dist) == True:      
+                    j=-2
+                    Finalfibres.append([j,xCord,yCord,CircleDiameter])
+                    Finalfibres.append([j,xtemp,ytemp,CircleDiameter])
+                    Vfactual = Vfactual + pi*((CircleDiameter/2.)**2)/(X_axis*Y_axis) 
+                else:
+                    Vfactual=Vfactual    
+                    
+# RIGHT
+            if (xCord > X_axis-0.65*CircleDiameter/2.) and (xCord < X_axis-0.35*CircleDiameter/2.):
+                xtemp = xCord-X_axis
+                ytemp = yCord
+                for x in range(len(Finalfibres)):
+                    dist.append(math.sqrt(((xtemp-Finalfibres[x][1])**2)+((ytemp-Finalfibres[x][2])**2)))
+                if all(i >= 1.05*CircleDiameter for i in dist) == True:      
+                    j=2
+                    Finalfibres.append([j,xCord,yCord,CircleDiameter])
+                    Finalfibres.append([j,xtemp,ytemp,CircleDiameter])
+                    Vfactual = Vfactual + pi*((CircleDiameter/2.)**2)/(X_axis*Y_axis) 
+                else:
+                    Vfactual=Vfactual               
+    
+    
+# MIDDLE
+            if (xCord > CircleDiameter) and (xCord < X_axis-CircleDiameter) and (yCord > CircleDiameter) and (yCord < Y_axis-CircleDiameter):
+                    j=0
+                    Finalfibres.append([j,xCord,yCord,CircleDiameter])
+                    Vfactual = Vfactual + pi*((CircleDiameter/2.)**2)/(X_axis*Y_axis) 
+        else:
+            Vfactual=Vfactual   
+    else:
+        Vfactualstring=str(round(Vfactual*100,2))
+        print("max iteration reached")
+        print("Final Vf is "+ Vfactualstring+ "%")
+        break
+        
+
+
+#Printing the RVE
+from tkinter import *
+
+root = Tk()
+
+canvas = Canvas(width=X_axis*100, height=Y_axis*100)
+canvas.pack()
+canvas.create_rectangle(0,0,X_axis*100,Y_axis*100,  outline="yellow")
+
+
+for x in range(len(Finalfibres)):
+    canvas.create_oval(Finalfibres[x][1]*100-Finalfibres[x][3]/2*100, Finalfibres[x][2]*100-Finalfibres[x][3]/2*100,Finalfibres[x][1]*100+Finalfibres[x][3]/2*100,Finalfibres[x][2]*100+Finalfibres[x][3]/2*100)
+
+
+root.mainloop()  # This call BLOCKS (so your program waits until you close the window!)
+
+
+```
+
+
+A final observation is here necessary: although we set Vf_target = 0.5 (meaning Vf= 50%), the random distribution algorithm (the one here described) will hardly achieve it with the ration domain/FibreDiameter here defined. According to the literature, for statistical purposes, Domain/FibreDiameter ratio should be greater than 20.
+
+
 Within this current algorithm, Vf = 45-47% is easely achieved. Other algorithms (for example closes neighborhood RVE generator) are more powerful and can be used to achieve up to 60-63% Vf. 
 
 
