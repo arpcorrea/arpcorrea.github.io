@@ -21,7 +21,7 @@ The following image shows the problem to be solved.
 #### The Heat Transfer Equation
 The heat equation is a partial differential equation that describes how the distribution of some quantity (in this case, heat) evolves over time in a solid medium, as it spontaneously flows from places where it is higher towards places where it is lower. It is a special case of the diffusion equation. This equation was first developed and solved by Joseph Fourier in 1822 to describe heat flow.
 
-In the special cases of propagation of heat in an aniisotropic and homogeneous medium in a 2-dimensional space, the heat flow equation results in the following
+In the special cases of heat transfer in an anisotropic and homogeneous medium in a 2-dimensional space, the heat flow equation results in the following:
 
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;\frac{\mathrm{d} T}{\mathrm{d} t} = Dx\frac{\partial^2 T}{\partial x^2} + Dy\frac{\partial^2 T}{\partial y^2}" title="2D heat transfer equation" />
 
@@ -47,7 +47,7 @@ import glob
 import itertools
 ```
 
-In sequence, it is defined the time step and set the "plot window grafical output" 
+In sequence, it is defined the time step and set the "plot window grafical output".
 
 ```python
 #Set Time Step
