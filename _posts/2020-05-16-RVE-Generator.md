@@ -368,7 +368,7 @@ root.mainloop()  # This call BLOCKS (so your program waits until you close the w
 ```
 That is it! It is important to mention that ever time you run the code, a different RVE is generated. Play around with the parameters in order to have the most suitable RVE for your task. You can <a href="mailto:andre.rittner-pires-correa.1@ens.etsmtl.ca?subject=[Blog]">send</a> me a message if you have any pending doubt.
 
-A final observation is here necessary: although we set Vf_target = 0.5 (meaning Vf= 50%), the random distribution algorithm (the one here described) will hardly achieve it with the ration domain/FibreDiameter here defined. According to the literature, for statistical purposes, Domain/FibreDiameter ratio should be greater than 20. Within this current algorithm, Vf = 45-47% is easely achieved. Other algorithms (for example closes neighborhood RVE generator) are more powerful and can be used to achieve up to 60-63% Vf. 
+FINAL OBSERVATION: although we set Vf_target = 0.5 (meaning Vf= 50%), the random distribution algorithm (the one here described) will hardly achieve it with the ration domain/FibreDiameter here defined. According to the literature, for statistical purposes, Domain/FibreDiameter ratio should be greater than 20. Within this current algorithm, Vf = 45-47% is easely achieved. Other algorithms (for example closes neighborhood RVE generator) are more powerful and can be used to achieve up to 60-63% Vf. 
 
 
 
