@@ -112,7 +112,7 @@ u^{top} - u^{bottom} = 0	" title="Periodic Boundary Condition" />
 
 A visually representation is provided:
 
-![GitHub Logo]({{ site.url }}/assets/images/RVE.JPG)
+![GitHub Logo]({{ site.url }}/assets/images/periodic.JPG)
 
 Alright, if this concept is clear, lets move on. If this "dummy fibre" is periodic, a "tween dummy fibre" will be created and, once again, the distances between the "tween dummy fibre" needs to be checked in respect to all the previous "accepted fibres".
 Another constraint here imposed is that only 35% of the radius can extrapolate the domain. This constraint is imposed only for further meshing purposes (which is not the scope of this current post). Remembering that this process can only be done if 
