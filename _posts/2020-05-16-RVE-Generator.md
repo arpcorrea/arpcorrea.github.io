@@ -104,14 +104,7 @@ In cases I-IV, it is said that the "dummy fibre" is periodic. What does it mean?
 "twin 1 dummy fibre" extrapolates the domain a "twin 2 dummy fibre" needs to compensate. In math, it resumes to: 
 
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;u^{left} - u^{right} = 0 ; u^{top} - u^{bottom} = 0" title="Finite difference approximation" />
-
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;\" title="Finite difference approximation" />
-
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;\u^{left} - u^{right} = 0 ; 
-
-u^{top} - u^{bottom} = 0	" title="Periodic Boundary Condition" />
-
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;u^{left} - u^{right} = 0 ; u^{top} - u^{bottom} = 0" title="Periodic Boundary Condition" />
 A visually representation is provided:
 
 ![GitHub Logo]({{ site.url }}/assets/images/periodic.JPG)
