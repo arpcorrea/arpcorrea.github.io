@@ -14,11 +14,9 @@ tags:
 The following code creates a Representative Volumetric Element (RVE) containing fibres encompassed by a domain. It ideally
 represents a micrography of 2 phases composite (Fibre + Matrix) that yields a value representative of the whole material.
 
-For the sake of simplicity, the current RVE generator creates fibres randomly oriented, which limits the material 
-compaction and allow us to reach fibre volumes (Vf) not higher than 50%. It is important to highlight that periodic boundary condition 
-is considered (fibres leaving the domain are also found entering in the domain).
+For the sake of simplicity, the current RVE generator creates circular fibres with the same diameter. The current code uses a random distribution, limiting the material compation and allowing us to reach fibre volumes (Vf) not higher than 50%. It is important to highlight that periodic boundary condition is considered (fibres leaving the domain are also found entering in the domain).
 
-As motivation, it is shown what we are expected to generate:
+As motivation, it is shown the RVE that we are expected to generate:
 
 ![GitHub Logo]({{ site.url }}/assets/images/RVE.JPG)
 
