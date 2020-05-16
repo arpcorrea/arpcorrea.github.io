@@ -95,9 +95,9 @@ After that, it is calculated the centre distance between this "Dummy Fibre" and 
 ```
 
 
-Great! Now, lets consider only the cases in which flag = 1, meaning that the "Dummy Fibre" is ellegible to become an "Accepted Fibre". 5 cases are possible: (I) the fibre has partially extrapolated the top boundary of the domain
-(II) the fibre has partially extrapolated the bottom boundary of the domain, (III) the fibre has partially extrapolated the right boundary of the domain, (IV) the fibre has partially extrapolated the left boundary of the domain or
-(V) encompassed by the domain.
+Great! Now, lets consider only the cases in which flag = 1, meaning that the "Dummy Fibre" is ellegible to become an "Accepted Fibre". 5 cases are possible: (I) the "Dummy Fibre" has partially extrapolated the top boundary of the domain
+(II) the "Dummy Fibre" has partially extrapolated the bottom boundary of the domain, (III) the "Dummy Fibre" has partially extrapolated the right boundary of the domain, (IV) the "Dummy Fibre" has partially extrapolated the left boundary of the domain or
+(V) "Dummy Fibre" is encompassed by the domain.
 
 In cases I-IV, it is said that the "Dummy Fibre" is periodic. What does it mean? It means that a "Twin Dummy Fibre" is generated in a way that complements the "Original Dummy Fibre". In other words, the amount that the 
 "Twin 1 Dummy Fibre" extrapolates the domain a "Twin 2 Dummy Fibre" needs to compensate. In math, it resumes to: 
