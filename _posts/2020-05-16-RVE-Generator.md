@@ -78,7 +78,8 @@ while Vfactual <= VfTarget:
     dist = []
     flag = 0
 ```
-After that, it is calculated the centre distance between this "Dummy Fibre" and all the other previous "Accepted Fibres" (in the fibres iteraction, the "Accepted Fibres" are those that we placed manually). If all the distances are greater than 1.05*D (this 1.05 was just defined to have at least 5% D gap), a flag =1 will refer to "ok, this fibre might be ellegible". On the other hand, if any distance is smaller than 1.05*D, a flag=0 will refer to "sadly, this fibre is not ellegible" and than, flag_iteration will be incremented. 
+After that, it is calculated the centre distance between this "Dummy Fibre" and all the other previous "Accepted Fibres" (in the fibres iteraction, the "Accepted Fibres" are those that we placed manually). If all the distances are greater than 1.05*D (this 1.05 was just defined to have at least 5% D gap), a flag =1 will refer to "ok, this fibre might be 
+eligible". On the other hand, if any distance is smaller than 1.05*D, a flag=0 will refer to "sadly, this fibre is not eligible" and than, flag_iteration will be incremented. 
 
 ```python
 #TEST DISTANCE   
@@ -95,7 +96,8 @@ After that, it is calculated the centre distance between this "Dummy Fibre" and 
 ```
 
 
-Great! Now, lets consider only the cases in which flag = 1, meaning that the "Dummy Fibre" is ellegible to become an "Accepted Fibre". 5 cases are possible: (I) the "Dummy Fibre" has partially extrapolated the top boundary of the domain
+Great! Now, lets consider only the cases in which flag = 1, meaning that the "Dummy Fibre" is 
+eligible  to become an "Accepted Fibre". 5 cases are possible: (I) the "Dummy Fibre" has partially extrapolated the top boundary of the domain
 (II) the "Dummy Fibre" has partially extrapolated the bottom boundary of the domain, (III) the "Dummy Fibre" has partially extrapolated the right boundary of the domain, (IV) the "Dummy Fibre" has partially extrapolated the left boundary of the domain or
 (V) "Dummy Fibre" is encompassed by the domain.
 
