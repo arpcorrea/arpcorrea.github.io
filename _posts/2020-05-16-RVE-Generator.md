@@ -29,8 +29,7 @@ We are ready for the source code. Before starting, the code here described was d
 import math
 import random
 ```
-
-Then, since we are expecting to generate circles (representing the fibres), we need to define pi. Also, the X,Y domain same as fibre diameters need to be entered. Finally, an iteraction bound is used to limit the calculation
+First of all, we need to define our X,Y domain and fibre diameter. Also, we need to define the pi value, as it will be used in the calculation. 
 
 ```python
 pi = math.pi
