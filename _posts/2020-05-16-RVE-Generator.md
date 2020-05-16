@@ -98,7 +98,7 @@ On the other hand, ff any distance is smaller than 1.05D, a flag=0 will say "sad
 
 Great! Now, lets consider only the cases in which flag = 1, meaning that the "dummy fibre" is ellegible to become an "accepted fibre". 5 cases are possible: (I) the fibre has partially extrapolated the top boundary of the domain
 (II) the fibre has partially extrapolated the bottom boundary of the domain, (III) the fibre has partially extrapolated the right boundary of the domain, (IV) the fibre has partially extrapolated the left boundary of the domain or
-(V) emcompassed by the domain.
+(V) encompassed by the domain.
 
 In cases I-IV, it is said that the "dummy fibre" is periodic. What does it mean? It means that a "twin dummy fibre" is generated in a way that complements the "original dummy fibre". In other words, the amount that the 
 "twin 1 dummy fibre" extrapolates the domain a "twin 2 dummy fibre" needs to compensate. In math, it resumes to: 
