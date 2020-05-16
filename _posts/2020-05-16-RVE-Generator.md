@@ -11,8 +11,8 @@ tags:
 
 ### RVE Random Generation
 
-The following code creates a Representative Volumetric Element (RVE) containing fibres inside a domain. It ideally
-represents a micrography of 2 phases that will yield a value representative of the whole material.
+The following code creates a Representative Volumetric Element (RVE) containing fibres encompassed by a domain. It ideally
+represents a micrography of 2 phases composite (Fibre + Matrix) that yields a value representative of the whole material.
 
 For the sake of simpicity, the current RVE generator creates fibres randomly oriented, which limites the material 
 compactation and allow us to reach fibre volumes (Vf) not higher than 50%. It is important to highlight that periodic boundary condition 
