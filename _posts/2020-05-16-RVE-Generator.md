@@ -40,7 +40,7 @@ CircleDiameter=0.7
 maxiteration=2000
 ```
 
-Great! In order to avoid complications in generating random fibres, 2 fibres are manually placed: (I) a central fibre and (II) the corner fibre. For the latter, each corner encompasses 1/4 of the fibre. 
+Great! In order to avoid complications in generating random fibres, 2 fibres are manually placed: (I) a central fibre and (II) the corner fibre. For the latter, each corner comprehends 1/4 of the fibre. 
 
 ```python
 #First fibres positioned: 1 centered and 1 in the 4 corners
