@@ -14,17 +14,17 @@ tags:
 The following code creates a Representative Volumetric Element (RVE) containing fibres encompassed by a domain. It ideally
 represents a micrography of 2 phases composite (Fibre + Matrix) that yields a value representative of the whole material.
 
-For the sake of simpicity, the current RVE generator creates fibres randomly oriented, which limites the material 
-compactation and allow us to reach fibre volumes (Vf) not higher than 50%. It is important to highlight that periodic boundary condition 
+For the sake of simplicity, the current RVE generator creates fibres randomly oriented, which limits the material 
+compaction and allow us to reach fibre volumes (Vf) not higher than 50%. It is important to highlight that periodic boundary condition 
 is considered (fibres leaving the domain are also found entering in the domain).
 
-The following figure shows what we are expected to create:
+The following figure shows what we are expected to generate:
 
 ![GitHub Logo]({{ site.url }}/assets/images/RVE.JPG)
 
 
 #### Python Code
-We are ready for the source code. Before starting, the code here described is developed on Python 3. The first step is to import necessary modules.
+We are ready for the source code. Before starting, the code here described is developed in Python 3. The first step is to import necessary modules.
 ```python
 import math
 import random
@@ -52,21 +52,21 @@ Finalfibres.append([4,0.,Y_axis,CircleDiameter])
 Finalfibres.append([0,X_axis/2.,Y_axis/2.,CircleDiameter])
 ```
 
-Alright. We have placed the 2 fibres and now we need to know the current fibre volumetric fraction, since we will generate the fibre fibres until Vf_current = Vf_target (or at least it reaches maxiteration).
+Alright. We have placed the 2 fibres and now we need to know the current fibre volume fraction, since we will generate the fibre fibres until Vf_current = Vf_target (or at least it reaches maxiteration).
 
 ```python
 #CURRENT VOLUMETRIC FRACTION
 Vfactual = (2*pi*(CircleDiameter/2.)**2)/(X_axis*Y_axis)
 ```
 
-Everything is almost defined... Before starting the random fibres placement, lets create a variable named "flag_iteration". This variable will count the number of iteractions that does not converge. If this "flat_iteration" reaches "maxiter), the code will stop generating more fibres and will plot the RVE for the actual Vf.
+Everything is almost defined... Before starting the random fibres placement, lets create a variable named "flag_iteration". This variable will count the number of iterations that does not converge. If this "flat_iteration" reaches "maxiter), the code will stop generating more fibres and will plot the RVE for the actual Vf.
 
 ```python
 #FLAG MASURING NUMBER OF ITERACTION 
 flag_iteration=0
 ```
 
-Cool! Are you ready? Lets start the random placement now. First, while Vf_actual < Vf_target, a "dummy Fibre" is randomly generated anywhere in the domain.
+Cool! Are you ready? Let's start the random placement now. First, while Vf_actual < Vf_target, a "dummy Fibre" is randomly generated anywhere in the domain.
 
 ```python
 #INITIATE RANDOM FIBRES
@@ -78,8 +78,7 @@ while Vfactual <= VfTarget:
     dist = []
     flag = 0
 ```
-After that, it is calculated the centre distance between this "Dummy Fibre" and all the other previous "Accepted Fibres" (in the fibres iteraction, the "Accepted Fibres" are those that we placed manually). If all the distances are greater than 1.05*D (this 1.05 was just defined to have at least 5% D gap), a flag =1 will refer to "ok, this fibre might be 
-eligible". On the other hand, if any distance is smaller than 1.05*D, a flag=0 will refer to "sadly, this fibre is not eligible" and than, flag_iteration will be incremented. 
+After that, it is calculated the centre distance between this "Dummy Fibre" and all the other previous "Accepted Fibres" (in the first iteration, the "Accepted Fibres" are those that we placed manually). If all the distances are greater than 1.05*D (this 1.05 was just defined to have at least 5% D gap), a flag =1 will refer to "ok, this fibre might be eligible". On the other hand, if any distance is smaller than 1.05*D, a flag=0 will refer to "sadly, this fibre is not eligible" and then, flag_iteration will be incremented. 
 
 ```python
 #TEST DISTANCE   
@@ -96,13 +95,9 @@ eligible". On the other hand, if any distance is smaller than 1.05*D, a flag=0 w
 ```
 
 
-Great! Now, lets consider only the cases in which flag = 1, meaning that the "Dummy Fibre" is 
-eligible  to become an "Accepted Fibre". 5 cases are possible: (I) the "Dummy Fibre" has partially extrapolated the top boundary of the domain
-(II) the "Dummy Fibre" has partially extrapolated the bottom boundary of the domain, (III) the "Dummy Fibre" has partially extrapolated the right boundary of the domain, (IV) the "Dummy Fibre" has partially extrapolated the left boundary of the domain or
-(V) "Dummy Fibre" is encompassed by the domain.
+Great! Now, lets consider only the cases in which flag = 1, meaning that the "Dummy Fibre" is  eligible  to become an "Accepted Fibre". 5 cases are possible: (I) the "Dummy Fibre" has partially extrapolated the top boundary of the domain (II) the "Dummy Fibre" has partially extrapolated the bottom boundary of the domain, (III) the "Dummy Fibre" has partially extrapolated the right boundary of the domain, (IV) the "Dummy Fibre" has partially extrapolated the left boundary of the domain or (V) "Dummy Fibre" is encompassed by the domain.
 
-In cases I-IV, it is said that the "Dummy Fibre" is periodic. What does it mean? It means that a "Twin Dummy Fibre" is generated in a way that complements the "Original Dummy Fibre". In other words, the amount that the 
-"Twin 1 Dummy Fibre" extrapolates the domain a "Twin 2 Dummy Fibre" needs to compensate. In math, it resumes to: 
+In the cases I-IV, it is said that the "Dummy Fibre" is periodic. What does it mean? It means that a "Twin Dummy Fibre" is generated in a way that complements the "Original Dummy Fibre". In other words, the amount that the "Twin 1 Dummy Fibre" extrapolates the domain a "Twin 2 Dummy Fibre" needs to compensate. In math, it resumes to: 
 
 
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;u^{left} - u^{right} = 0 ; u^{top} - u^{bottom} = 0" title="Periodic Boundary Condition" />
@@ -110,9 +105,7 @@ A visually representation is provided:
 
 ![GitHub Logo]({{ site.url }}/assets/images/periodic.JPG)
 
-Alright, if this concept is clear, lets move on. If this "Dummy fibre" is periodic, a "Twin Dummy Fibre" will be created and, once again, the distances between the "Twin Dummy Fibre" needs to be checked in respect to all the previous "Accepted Fibres".
-Another constraint here imposed is that only 35% of the radius can extrapolate the domain. This constraint is imposed only for further meshing purposes (which is not the scope of this current post). Remembering that this process can only be done if 
-flag_iteration<maxiteration.
+Alright, if this concept is clear, let's move on. If this "Dummy fibre" is periodic, a "Twin Dummy Fibre" will be created and, once again, the distances between the "Twin Dummy Fibre" needs to be checked in respect to all the previous "Accepted Fibres". Another constraint here imposed is that only 35% of the radius can extrapolate the domain. This constraint is imposed only for further meshing purposes (which is not the scope of this current post). Remembering that this process can only be done if flag_iteration<maxiteration.
 
 ```python
 ]#TEST FOR FIBRE IN THE EDGES
@@ -212,7 +205,6 @@ for x in range(len(Finalfibres)):
 root.mainloop()  # This call BLOCKS (so your program waits until you close the window!)
 ```
 
-![GitHub Logo]({{ site.url }}/assets/images/RVE.JPG)
 
 Your RVE should look like the first figure of this post. The full code is pasted below:
 ```python
