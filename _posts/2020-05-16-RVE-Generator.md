@@ -216,7 +216,7 @@ for x in range(len(Finalfibres)):
 root.mainloop()  # This call BLOCKS (so your program waits until you close the window!)
 ```
 
-![GitHub Logo]({{ site.url }}//assets/images/.)
+![GitHub Logo]({{ site.url }}/assets/images/RVE.JPG)
 
 Your RVE should look like this . 
 
