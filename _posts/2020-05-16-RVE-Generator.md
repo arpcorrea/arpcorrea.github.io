@@ -22,7 +22,7 @@ As motivation, it is shown the RVE that we are expected to generate:
 
 
 #### Python Code
-We are ready for the source code. Before starting, the code here described is developed in Python 3. The first step is to import necessary modules.
+We are ready for the source code. Before starting, the code here described is developed in Python 3. The first step is to import the necessary modules.
 ```python
 import math
 import random
