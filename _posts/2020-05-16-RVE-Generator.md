@@ -101,8 +101,8 @@ Great! Now, lets consider only the cases in which flag = 1, meaning that the "du
 (II) the fibre has partially extrapolated the bottom boundary of the domain, (III) the fibre has partially extrapolated the right boundary of the domain, (IV) the fibre has partially extrapolated the left boundary of the domain or
 (V) emcompassed by the domain.
 
-In cases I-IV, it is said that the "dummy fibre" is periodic. What does it mean? It means that a "tween dummy fibre" is generated in a way that complements the "original dummy fibre". In other words, the amount that the 
-"tween 1 dummy fibre" extrapolates the domain a "tween 2 dummy fibre" needs to compensate. In math, it resumes to: 
+In cases I-IV, it is said that the "dummy fibre" is periodic. What does it mean? It means that a "twin dummy fibre" is generated in a way that complements the "original dummy fibre". In other words, the amount that the 
+"twin 1 dummy fibre" extrapolates the domain a "twin 2 dummy fibre" needs to compensate. In math, it resumes to: 
 
 
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;\frac{T_{i,j}^{(n+1)} - T_{i,j}^{(n)}}{\Delta t}  = D_x \frac{T_{i+1,j}^{(n)} - 2T_{i,j}^{(n)} +T_{i-1,j}^{(n)} }{(\Delta x)^2} +  D_y \frac{T_{i,j+1}^{(n)} - 2T_{i,j}^{(n)} +T_{i,j-1}^{(n)} }{(\Delta y)^2}" title="Finite difference approximation" />
@@ -117,7 +117,7 @@ A visually representation is provided:
 
 ![GitHub Logo]({{ site.url }}/assets/images/periodic.JPG)
 
-Alright, if this concept is clear, lets move on. If this "dummy fibre" is periodic, a "tween dummy fibre" will be created and, once again, the distances between the "tween dummy fibre" needs to be checked in respect to all the previous "accepted fibres".
+Alright, if this concept is clear, lets move on. If this "dummy fibre" is periodic, a "twin dummy fibre" will be created and, once again, the distances between the "twin dummy fibre" needs to be checked in respect to all the previous "accepted fibres".
 Another constraint here imposed is that only 35% of the radius can extrapolate the domain. This constraint is imposed only for further meshing purposes (which is not the scope of this current post). Remembering that this process can only be done if 
 flag_iteration<maxiteration.
 
