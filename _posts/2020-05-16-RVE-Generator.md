@@ -104,6 +104,8 @@ Great! Now, lets consider only the cases in which flag = 1, meaning that the "du
 In cases I-IV, it is said that the "dummy fibre" is periodic. What does it mean? It means that a "tween dummy fibre" is generated in a way that complements the "original dummy fibre". In other words, the amount that the 
 "tween 1 dummy fibre" extrapolates the domain a "tween 2 dummy fibre" needs to compensate. In math, it resumes to: 
 
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;\u^{left} - u^{right} = 0 ; u^{top} - u^{bottom} = 0" title="Finite difference approximation" />
+
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;\u^{left} - u^{right} = 0 ; 
 
 u^{top} - u^{bottom} = 0	" title="Periodic Boundary Condition" />
