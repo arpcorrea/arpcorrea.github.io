@@ -1,6 +1,6 @@
 ---
-title: "2 Phases Composite RVE Generator"
-excerpt: "This code generates a randomly disperse Fibre-Matrix Representative Volume Element (RVE)."
+title: "2 Phases Composite RVE Random Generator"
+excerpt: "This code generates a randomly oriented Fibre-Matrix Representative Volume Element (RVE)."
 date: May 16, 2020
 categories:
   - Code
