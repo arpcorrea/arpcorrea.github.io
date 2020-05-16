@@ -18,7 +18,7 @@ For the sake of simplicity, the current RVE generator creates fibres randomly or
 compaction and allow us to reach fibre volumes (Vf) not higher than 50%. It is important to highlight that periodic boundary condition 
 is considered (fibres leaving the domain are also found entering in the domain).
 
-The following figure shows what we are expected to generate:
+As motivation, it is shown what we are expected to generate:
 
 ![GitHub Logo]({{ site.url }}/assets/images/RVE.JPG)
 
