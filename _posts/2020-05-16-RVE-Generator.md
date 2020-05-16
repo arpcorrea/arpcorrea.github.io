@@ -24,12 +24,12 @@ The following figure shows what we are expected to create:
 
 
 #### Python Code
-We are ready for the source code. Before starting, the code here described was developed on python 2.7. The first step is to import necessary modules.
+We are ready for the source code. Before starting, the code here described is developed on Python 3. The first step is to import necessary modules.
 ```python
 import math
 import random
 ```
-First of all, we need to define our X,Y domain and fibre diameter. Also, we need to define the pi value, as it will be used in the calculation. 
+Then, we need to define our X,Y domain and fibre diameter. Also, we need to define the pi value, as it will be used in the calculation. 
 
 ```python
 pi = math.pi
