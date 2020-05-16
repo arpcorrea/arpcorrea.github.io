@@ -1,5 +1,5 @@
 ---
-title: "RVE Generator"
+title: "2 Phases Composite RVE Generator"
 excerpt: "This code generates a Fibre-Matrix Representative Volumetric Element (RVE) randomly placing fibres."
 date: May 16, 2020
 categories:
