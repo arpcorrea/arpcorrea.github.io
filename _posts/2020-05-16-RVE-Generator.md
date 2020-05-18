@@ -1,7 +1,7 @@
 ---
-title: "2 Phases Composite RVE Random Generator"
+title: "RVE Generator"
 excerpt: "This code generates a randomly oriented Fibre-Matrix Representative Volume Element (RVE)."
-date: May 16, 2020
+date: May 18, 2020
 categories:
   - Code
 tags:
@@ -12,7 +12,7 @@ tags:
 ### RVE Random Generation
 
 The following code creates a Representative Volumetric Element (RVE) containing fibres encompassed by a domain. It ideally
-represents a micrography of 2 phases composite (Fibre + Matrix) that yields a value representative of the whole material.
+represents a micrography of 2 phases composite (Fibre + Matrix) that yields a value representative of the whole material. 
 
 For the sake of simplicity, the current RVE generator creates circular fibres with the same diameter. The current code uses a random distribution, limiting the material compation and allowing us to reach fibre volumes (Vf) not higher than 50%. It is important to highlight that periodic boundary condition is considered (fibres leaving the domain are also found entering in the domain).
 
