@@ -16,3 +16,6 @@ Joining has proved to be a critical step in the manufacturing of large and compl
 Thus, welding is found to be a suitable assembling process applied to thermoplastic composites,overcoming some limitations from traditional assembling methods. Consolidation is one of the key phases of thermoplastic welding in which external pressure and temperature are applied in order to develop, simultaneously, two main phenomena: (I) intimate contact between the adherents and (II) polymer healing across the weld interface.
 
 Even though thermoplastic welding is already successfully employed in the aerospace segment,the industry still urges for predictable, reliable and robust welding models. Thus the current work aims to bring a literature review about the consolidation step of thermoplastic welding process
+
+
+a href="arpcorrea.github.io/assets/docs/CV_Andre_19_20.pdf/document.pdf" target="_blank">PDF.</a>
