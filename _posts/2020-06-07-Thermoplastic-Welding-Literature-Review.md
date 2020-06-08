@@ -18,4 +18,4 @@ Thus, welding is found to be a suitable assembling process applied to thermoplas
 Even though thermoplastic welding is already successfully employed in the aerospace segment,the industry still urges for predictable, reliable and robust welding models. Thus the current work aims to bring a literature review about the consolidation step of thermoplastic welding process
 
 
-<a href="arpcorrea.github.io/assets/docs/Healing_r.pdf" target="_blank">PDF.</a>
+You can check the full literature review on the following <a href="arpcorrea.github.io/assets/docs/Healing_r.pdf" target="_blank">PDF.</a>
