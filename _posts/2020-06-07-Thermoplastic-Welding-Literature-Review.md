@@ -11,11 +11,7 @@ tags:
 ---
 
 
-test
-<p>
-    <img src="https://arpcorrea.github.io/assets/images/literature/thermoplastic.png" alt>
-    <em>image_caption</em>
-</p>
+
 
 The scope of this post is to share in a friendly language the fundamentals of consolidation in thermoplastic welding process. First, let’s understand the meaning of “thermoplastic”. Thermoplastic is a type of polymer. Polymer? What is a polymer? Polymer is a class of material in which large molecules are built up by multiple small repeating units, called monomers, in a reactive chemical process.
  
@@ -23,6 +19,12 @@ The scope of this post is to share in a friendly language the fundamentals of co
 Alright, so now we can get back and define thermoplastic! Thermoplastics can be considered as ensembles of randomly packed and entangled chains, in which their chain mobility is given by the monomer features, such as weight, compounds and polar groups. When heated, this chain entanglement becomes more flexible with increased mobility, enabling the material to soften and flow. 
 
 ![GitHub Logo]({{ site.url }}/assets/images/literature/thermoplastic.png)
+
+test
+<p>
+    <img src="https://arpcorrea.github.io/assets/images/literature/thermoplastic.png" alt>
+    <em>Thermoplastic Schematic Structure </em>
+</p>
 
 So now, consider that two or more thermoplastic independent parts, for now on called adherents, need to be assembled. This is trivial, we are everyday using screws, rivets or adhesives… is it?
 
@@ -34,12 +36,22 @@ Thanks to their ability in softening and flowing, thermoplastics can be welded. 
 
 ![GitHub Logo]({{ site.url }}/assets/images/literature/consolidation.PNG)
 
+<p>
+    <img src="https://arpcorrea.github.io/assets/images/literature/consolidation.PNG" alt>
+    <em>CHAPTER 3CONSOLIDATION OF THERMOPLASTIC POLYMERSConsolidation is a critical step in the manufacturing of thermoplastic welded parts, in whichcomplex multi-physical phenomena takes place, such as resin flow, intimate contact developmentand molecular interdiffusion [Ageorges, Ye, Mai & Hou (1998)]. It is characterized by anisothermal condition with sharp fluctuation in the applied pressure for short period of time,limiting the consolidation to short process [Roychowdhury & Advani (1991)].First, adherents are softened by heat application. Then, external pressure is applied, resulting in an intimate contact development between adherents. Simultaneously, healing occurs at the interfaces are into intimate contact.</em>
+</p>
+
+
 In the welding definition, one word might have caught your attention: “consolidating”. During consolidation, external heat and pressure are applied in order to enable two main phenomena: (I) intimate contact development and (II) interface healing. What do they mean? 
 
 The adherent’s surface is never smooth at any scale, showing a self-affine property. In the figure below, you can find a real-life roughness measured by confocal microscopy. 
 
 
-![GitHub Logo]({{ site.url }}/assets/images/literature/roughness.png)
+test
+<p>
+    <img src="https://arpcorrea.github.io/assets/images/literature/roughness.png" alt>
+    <em>Random Roughness Measurement</em>
+</p>
 
 Once the reader understood that the adherent’s surface is rough, lets continue the explanation over intimate contact. In order maximize the contact area of two or more adherents, external pressure is applied in order to deform these asperities, like “spreading” them. Simultaneously, heat is applied in order to make the material more flexible and allow resin flow to fulfill the void-spots. This would, ideally, create a complete and tight mechanical contact between the adherents.
 
@@ -52,9 +64,21 @@ Great! We have already covered the first phenomena, the intimate contact. Let’
 The interface healing phenomena is based on the Reptation Theory [De Gennes (1971)] for bulk materials. In a straight forward explanation, this theory assumes that the polymer chain entanglement constrains single chains inside a “tube-like” region, in which are allowed to move back and forward along the curvilinear length of the tube. The following figure shows how  single chain disengages itself from the initial tube.
 
 ![GitHub Logo]({{ site.url }}/assets/images/literature/reptation.PNG)
+
+<p>
+    <img src="https://arpcorrea.github.io/assets/images/literature/reptation.PNG" alt>
+    <em>At the beginning of the process, t=t0, the chain is totally encompassedby the tube. At a certain time t=t1, the chain ends escape from the tube. This disengagement continues as time progresses (t=t2), untilthe reptation time tr is reached, when the entire polymer chain scapes from the tube, characterizing full healing.</em>
+</p>
+
 Adapting the original reptation there (developed for the bulk material), Wool et al (Wool and OConnor (1981)] extended this theory to explain the motion of molecular chains across the weld interface. Initially, two adherents are assumed to be in perfect contact at the interface, as shown in the following figure (note that only the molecules on one side of the interface are illustrated for clarity).
 
-![GitHub Logo]({{ site.url }}/assets/images/literature/reptation_welding.PNG)
+
+
+<p>
+    <img src="https://arpcorrea.github.io/assets/images/literature/reptation_welding.PNG" alt>
+    <em>At the beginning of the processt =t0, the minor chains have zero length. As time proceeds, the lengths of the minor chains grow(t=t1) and some of them move across the interface (t=tr).</em>
+</p>
+
 
 At t=t0, the chains have no minor chains diffusing through the interface, and therefore, are represented by dots. As time proceeds, the lengths of the minor chains grow, and some of thechains move across the interface with an interpenetration distance X, which contributes to buildup a weldline strength. At the reptation time, the interpenetration and entanglement of all the polymer chains are fully developed and the molecular configuration at the interface is identical to the virginal bulk material.
 
