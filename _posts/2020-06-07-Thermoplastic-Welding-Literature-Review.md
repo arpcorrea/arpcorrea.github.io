@@ -71,7 +71,7 @@ The interface healing phenomena is based on the Reptation Theory [De Gennes (197
 
 
 
-{% include figure image_path="/assets/images/literature/reptation.PNG" width="20" height="20" alt="this is a placeholder image" style="width: 40px ;" caption="This is a figure captionoo." %}
+{% include figure image_path="/assets/images/literature/reptation.PNG" alt="this is a placeholder image"  width="200" caption="This is a figure caption." %}
 
 Adapting the original reptation there (developed for the bulk material), Wool et al (Wool and OConnor (1981)] extended this theory to explain the motion of molecular chains across the weld interface. Initially, two adherents are assumed to be in perfect contact at the interface, as shown in the following figure (note that only the molecules on one side of the interface are illustrated for clarity).
 
