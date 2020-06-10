@@ -13,7 +13,7 @@ tags:
 
 
 
-The scope of this post is to share in a friendly language the fundamentals of consolidation in thermoplastic welding process. First, let’s understand the meaning of “thermoplastic”. Thermoplastic is a type of polymer. Polymer? What is a polymer? Polymer is a class of material in which large molecules are built up by multiple small repeating units, called monomers, in a reactive chemical process.
+The scope of this post is to share in a friendly language fundamentals of consolidation in thermoplastic welding process. First, let’s understand the meaning of “thermoplastic”. Thermoplastic is a type of polymer. Polymer? What is a polymer? Polymer is a class of material in which large molecules are built up by multiple small repeating units, called monomers, in a reactive chemical process.
  
 
 Alright, so now we can get back and define thermoplastic! Thermoplastics can be considered as ensembles of randomly packed and entangled chains, in which their chain mobility is given by the monomer features, such as weight, compounds and polar groups. When heated, this chain entanglement becomes more flexible with increased mobility, enabling the material to soften and flow. 
@@ -26,11 +26,11 @@ Alright, so now we can get back and define thermoplastic! Thermoplastics can be 
 
 So now, consider that two or more thermoplastic independent parts, for now on called adherents, need to be assembled. This is trivial, we are everyday using screws, rivets or adhesives… is it?
 
-Well, mechanical fastenings methods exhibit problems arising from stress concentrations, thermal expansion coefficient mismatch and fabric damage induced by drilling, in addition to the negative impact of increased weight from the fasteners. Adhesive bonding, on the other hand, is incompatible with thermoplastic resins owing to their chemically inert properties, requiring excessive surface preparation.
+Well, for high performance lightweight structures, mechanical fastenings methods exhibit problems arising from stress concentrations, thermal expansion coefficient mismatch and fabric damage induced by drilling, in addition to the negative impact of increased weight from the fasteners. Adhesive bonding, on the other hand, is incompatible with thermoplastic resins owing to their chemically inert properties, requiring excessive surface preparation.
 
 To prevent these issues related to traditional techniques, welding, also known as fusion bonding, is considered as the most suitable process for joining thermoplastic composite parts. This process takes the advantage of uniform stress distribution, less sensitive to surface treatment, short cycle times and cost-effective process. The Defense and Space Group of the Boeing Company reported labour savings greater than 61% could be obtained by welding a composite wing structure as compared to a bolted one.
 
-Thanks to their ability in softening and flowing, thermoplastics can be welded. Thermoplastic composite welding is defined as the joining of two or more parts together by softening and consolidating under pressure of their common interface. The efficiency of this welding is evaluated by comparing the weldline strength to the virginal bulk strength.
+Thanks to their ability in softening and flowing, thermoplastics can be welded. Thermoplastic composite welding is defined as the joining of two or more thermoplastic parts together by softening and consolidating under pressure of their common interface. The efficiency of this welding is evaluated by comparing the weldline strength to the virginal bulk strength.
 
 
 
@@ -42,7 +42,7 @@ Thanks to their ability in softening and flowing, thermoplastics can be welded. 
 
 In the welding definition, one word might have caught your attention: “consolidating”. During consolidation, external heat and pressure are applied in order to enable two main phenomena: (I) intimate contact development and (II) interface healing. What do they mean? 
 
-The adherent’s surface is never smooth at any scale, showing a self-affine property. In the figure below, you can find a real-life roughness measured by confocal microscopy. 
+Let's start with the first phenomena, the intimate contact. The adherent’s surface is never smooth at any scale, showing a self-affine property. In the figure below, you can find a real-life roughness measured by confocal microscopy. 
 
 
 
@@ -52,8 +52,7 @@ The adherent’s surface is never smooth at any scale, showing a self-affine pro
 </figure>
 
 
-
-Once the reader understood that the adherent’s surface is rough, lets continue the explanation over intimate contact. In order maximize the contact area of two or more adherents, external pressure is applied in order to deform these asperities, like “spreading” them. Simultaneously, heat is applied in order to make the material more flexible and allow resin flow to fulfill the void-spots. This would, ideally, create a complete and tight mechanical contact between the adherents.
+In order maximize the contact area of two or more rough adherents, external pressure is applied in order to deform these asperities, like “spreading” them. Simultaneously, heat is applied in order to make the material more flexible and allow resin flow to fulfill the void-spots. This would, ideally, create a complete and tight mechanical contact between the adherents.
 
 On the modelling of this intimate contact phenomenon, the reader is here invited to have a more detailed read about it in a more technical literature. Beforehand, it is important to mention that modelling intimate contact is not trivial and is far from being a established and well-defined topic. Two analytical models are usually the most simple representation of the time-evolution of the intimate contact: Identical Asperities Model [Mantel and Springer(1992)] and Cantor Set Model 
 
