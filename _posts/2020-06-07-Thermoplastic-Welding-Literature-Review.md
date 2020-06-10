@@ -3,11 +3,12 @@ title: "Review: On the Consolidation of Thermoplastic Welding"
 excerpt: "A friendly Review on the Consolidation of Thermoplastic Welding process is presented in this link"
 date: June 08, 2020
 categories:
-  - Literature Review
+  - Review
 tags:
   - Thermoplastic Welding
   - Thermoplastic Composite 
   - Consolidation
+  - Review
 ---
 
 
