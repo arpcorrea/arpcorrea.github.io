@@ -36,7 +36,7 @@ Thanks to their ability in softening and flowing, thermoplastics can be welded. 
 
 <p>
     <img src="https://arpcorrea.github.io/assets/images/literature/consolidation.PNG" alt>
-	<em>First, adherents are heated to soften the material. Then, external pressure is applied, resulting in an intimate contact development between adherents. Simultaneously, healing occurs at the interfaces are into intimate contact.</em>
+	<em> First, adherents are heated to soften the material. Then, external pressure is applied, resulting in an intimate contact development between adherents. Simultaneously, healing occurs at the interfaces are into intimate contact.</em>
 </p>
 
 
@@ -48,7 +48,7 @@ The adherent’s surface is never smooth at any scale, showing a self-affine pro
 
 <p>
     <img src="https://arpcorrea.github.io/assets/images/literature/roughness.png" alt>
-    <em>Random Roughness Measurement</em>
+    <em> Random Roughness Measurement</em>
 </p>
 
 Once the reader understood that the adherent’s surface is rough, lets continue the explanation over intimate contact. In order maximize the contact area of two or more adherents, external pressure is applied in order to deform these asperities, like “spreading” them. Simultaneously, heat is applied in order to make the material more flexible and allow resin flow to fulfill the void-spots. This would, ideally, create a complete and tight mechanical contact between the adherents.
