@@ -86,6 +86,6 @@ Adapting the original reptation theory (developed for the bulk material), Wool e
 
 At t=t0, the chains have no minor chains diffusing through the interface, and therefore, are represented by dots. As time proceeds, the lengths of the minor chains grow, and some of thechains move across the interface with an interpenetration distance &#935;, which contributes to buildup a weldline strength. At the reptation time, the interpenetration and entanglement of all the polymer chains are fully developed and the molecular configuration at the interface is identical to the virginal bulk material.
 
-Finally, The weld strength, &#963;, is proportional to the interpenetration depth &#935;, which is related to the minor chain length &#935; ~  l^(1/2). The ultimate weld strength, &#963;\infty, is achieved when the interpenetration depth and the minor chain length reach their maximum values $\chi_\infty$ and $L$, respectively. 
+Finally, The weld strength, &#963;, is proportional to the interpenetration depth &#935;, which is related to the minor chain length &#935; ~  l^(1/2). The ultimate weld strength, &#963;∞, is achieved when the interpenetration depth and the minor chain length reach their maximum values &#935;∞ and L, respectively. 
 
 <p>&#963;</p>
