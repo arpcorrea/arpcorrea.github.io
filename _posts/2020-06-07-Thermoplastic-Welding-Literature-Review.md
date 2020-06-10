@@ -68,6 +68,12 @@ The interface healing phenomena is based on the Reptation Theory [De Gennes (197
     <em> 	At the beginning of the process, t=t0, the chain is totally encompassedby the tube. At a certain time t=t1, the chain ends escape from the tube. This disengagement continues as time progresses (t=t2), untilthe reptation time tr is reached, when the entire polymer chain scapes from the tube, characterizing full healing.</em>
 </p>
 
+
+<figure>
+  <img src="{{site.url}}/assets/images/literature/reptation.PNG"" alt="my alt text"/>
+  <figcaption>This is my caption text.</figcaption>
+</figure>
+
 Adapting the original reptation there (developed for the bulk material), Wool et al (Wool and OConnor (1981)] extended this theory to explain the motion of molecular chains across the weld interface. Initially, two adherents are assumed to be in perfect contact at the interface, as shown in the following figure (note that only the molecules on one side of the interface are illustrated for clarity).
 
 
