@@ -29,7 +29,7 @@ In the welding definition, one word might have caught your attention: “consoli
 The adherent’s surface is never smooth at any scale, showing a self-affine property. In the figure below, you can find a real-life roughness measured by confocal microscopy. 
 
 
-![GitHub Logo]({{ site.url }}/assets/images/literature/reptation.PNG)
+![GitHub Logo]({{ site.url }}/assets/images/literature/roughness.png)
 
 Once the reader understood that the adherent’s surface is rough, lets continue the explanation over intimate contact. In order maximize the contact area of two or more adherents, external pressure is applied in order to deform these asperities, like “spreading” them. Simultaneously, heat is applied in order to make the material more flexible and allow resin flow to fulfill the void-spots. This would, ideally, create a complete and tight mechanical contact between the adherents.
 
@@ -41,10 +41,10 @@ Great! We have already covered the first phenomena, the intimate contact. Let’
 
 The interface healing phenomena is based on the Reptation Theory [De Gennes (1971)] for bulk materials. In a straight forward explanation, this theory assumes that the polymer chain entanglement constrains single chains inside a “tube-like” region, in which are allowed to move back and forward along the curvilinear length of the tube. The following figure shows how  single chain disengages itself from the initial tube.
 
-![GitHub Logo]({{ site.url }}/assets/images/literature/reptation_welding.PNG)
+![GitHub Logo]({{ site.url }}/assets/images/literature/reptation.PNG)
 Adapting the original reptation there (developed for the bulk material), Wool et al (Wool and OConnor (1981)] extended this theory to explain the motion of molecular chains across the weld interface. Initially, two adherents are assumed to be in perfect contact at the interface, as shown in the following figure (note that only the molecules on one side of the interface are illustrated for clarity).
 
-![GitHub Logo]({{ site.url }}/assets/images/literature/roughnss.PNG)
+![GitHub Logo]({{ site.url }}/assets/images/literature/reptation_welding.PNG)
 
 At t=t0, the chains have no minor chains diffusing through the interface, and therefore, are represented by dots. As time proceeds, the lengths of the minor chains grow, and some of thechains move across the interface with an interpenetration distance X, which contributes to buildup a weldline strength. At the reptation time, the interpenetration and entanglement of all the polymer chains are fully developed and the molecular configuration at the interface is identical to the virginal bulk material.
 
