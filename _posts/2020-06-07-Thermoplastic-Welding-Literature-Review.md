@@ -84,6 +84,6 @@ Adapting the original reptation theory (developed for the bulk material), Wool e
 </p>
 
 
-At t=t0, the chains have no minor chains diffusing through the interface, and therefore, are represented by dots. As time proceeds, the lengths of the minor chains grow, and some of thechains move across the interface with an interpenetration distance X, which contributes to buildup a weldline strength. At the reptation time, the interpenetration and entanglement of all the polymer chains are fully developed and the molecular configuration at the interface is identical to the virginal bulk material.
+At t=t0, the chains have no minor chains diffusing through the interface, and therefore, are represented by dots. As time proceeds, the lengths of the minor chains grow, and some of thechains move across the interface with an interpenetration distance <p>&#935;</p>, which contributes to buildup a weldline strength. At the reptation time, the interpenetration and entanglement of all the polymer chains are fully developed and the molecular configuration at the interface is identical to the virginal bulk material.
 
 <p>&#963;</p>
