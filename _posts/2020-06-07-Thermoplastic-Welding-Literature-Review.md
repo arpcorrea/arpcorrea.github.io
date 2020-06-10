@@ -11,10 +11,10 @@ tags:
 ---
 
 
+test
 <p>
-    <img src="https://arpcorrea.github.io/assets/images/literature/thermoplastic.png alt="dominating_sets_example2"/>
-    <br>
-    <em>Fig. 2: The minimum dominating set of a graph</em>
+    <img src="https://arpcorrea.github.io/assets/images/literature/thermoplastic.png" alt>
+    <em>image_caption</em>
 </p>
 
 The scope of this post is to share in a friendly language the fundamentals of consolidation in thermoplastic welding process. First, let’s understand the meaning of “thermoplastic”. Thermoplastic is a type of polymer. Polymer? What is a polymer? Polymer is a class of material in which large molecules are built up by multiple small repeating units, called monomers, in a reactive chemical process.
