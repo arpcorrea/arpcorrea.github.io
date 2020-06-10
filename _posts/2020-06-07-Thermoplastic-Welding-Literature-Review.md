@@ -34,11 +34,11 @@ To prevent these issues related to traditional techniques, welding, also known a
 
 Thanks to their ability in softening and flowing, thermoplastics can be welded. Thermoplastic composite welding is defined as the joining of two or more parts together by softening and consolidating under pressure of their common interface. The efficiency of this welding is evaluated by comparing the weldline strength to the virginal bulk strength.
 
-![GitHub Logo]({{ site.url }}/assets/images/literature/consolidation.PNG)
+
 
 <p>
     <img src="https://arpcorrea.github.io/assets/images/literature/consolidation.PNG" alt>
-    <em>CHAPTER 3CONSOLIDATION OF THERMOPLASTIC POLYMERSConsolidation is a critical step in the manufacturing of thermoplastic welded parts, in whichcomplex multi-physical phenomena takes place, such as resin flow, intimate contact developmentand molecular interdiffusion [Ageorges, Ye, Mai & Hou (1998)]. It is characterized by anisothermal condition with sharp fluctuation in the applied pressure for short period of time,limiting the consolidation to short process [Roychowdhury & Advani (1991)].First, adherents are softened by heat application. Then, external pressure is applied, resulting in an intimate contact development between adherents. Simultaneously, healing occurs at the interfaces are into intimate contact.</em>
+	<em>First, adherents are heated to soften the material. Then, external pressure is applied, resulting in an intimate contact development between adherents. Simultaneously, healing occurs at the interfaces are into intimate contact.</em>
 </p>
 
 
@@ -47,7 +47,7 @@ In the welding definition, one word might have caught your attention: “consoli
 The adherent’s surface is never smooth at any scale, showing a self-affine property. In the figure below, you can find a real-life roughness measured by confocal microscopy. 
 
 
-test
+
 <p>
     <img src="https://arpcorrea.github.io/assets/images/literature/roughness.png" alt>
     <em>Random Roughness Measurement</em>
@@ -63,7 +63,7 @@ Great! We have already covered the first phenomena, the intimate contact. Let’
 
 The interface healing phenomena is based on the Reptation Theory [De Gennes (1971)] for bulk materials. In a straight forward explanation, this theory assumes that the polymer chain entanglement constrains single chains inside a “tube-like” region, in which are allowed to move back and forward along the curvilinear length of the tube. The following figure shows how  single chain disengages itself from the initial tube.
 
-![GitHub Logo]({{ site.url }}/assets/images/literature/reptation.PNG)
+
 
 <p>
     <img src="https://arpcorrea.github.io/assets/images/literature/reptation.PNG" alt>
