@@ -70,7 +70,7 @@ The interface healing phenomena is based on the Reptation Theory [De Gennes (197
 
 
 <figure>
-  <img src="{{site.url}}/assets/images/literature/reptation.PNG"" alt="my alt text"/>
+  <img src="{{site.url}}/assets/images/literature/reptation.PNG" alt="my alt text"/>
   <figcaption>This is my caption text.</figcaption>
 </figure>
 
