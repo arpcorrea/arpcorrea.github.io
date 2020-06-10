@@ -1,6 +1,6 @@
 ---
-title: "Literature Review: On the Consolidation of Thermoplastic Welding"
-excerpt: "A Literature Review on the Consolidation step of a thermoplastic welding process if presented in this link"
+title: "Review: On the Consolidation of Thermoplastic Welding"
+excerpt: "A friendly Review on the Consolidation of Thermoplastic Welding process is presented in this link"
 date: June 08, 2020
 categories:
   - Literature Review
