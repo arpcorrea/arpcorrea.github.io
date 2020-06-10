@@ -13,11 +13,12 @@ tags:
 
 The scope of this post is to share in a friendly language the fundamentals of consolidation in thermoplastic welding process. First, let’s understand the meaning of “thermoplastic”. Thermoplastic is a type of polymer. Polymer? What is a polymer? Polymer is a class of material in which large molecules are built up by multiple small repeating units, called monomers, in a reactive chemical process.
  
-Alright, so now we can get back and define thermoplastic! Thermoplastics can be considered as ensembles of randomly packed and entangled polymer chains, whose mobility is driven by the monomer features (such as weight and compound) and polar groups. Under heating, these entangled chains gain more mobility, enabling the material to soften and flow. 
+
+Alright, so now we can get back and define thermoplastic! Thermoplastics can be considered as ensembles of randomly packed and entangled chains, in which their chain mobility is given by the monomer features, such as weight, compounds and polar groups. When heated, this chain entanglement becomes more flexible with increased mobility, enabling the material to soften and flow. 
 
 ![GitHub Logo]({{ site.url }}/assets/images/literature/thermoplastic.png)
 
-Cool! We have already defined the first term of the work: thermoplastics. So now, consider that two or more thermoplastic independent parts, for now on called adherents, need to be assembled. This is trivial, we are everyday using screws, rivets or adhesives… is it?
+So now, consider that two or more thermoplastic independent parts, for now on called adherents, need to be assembled. This is trivial, we are everyday using screws, rivets or adhesives… is it?
 
 Well, mechanical fastenings methods exhibit problems arising from stress concentrations, thermal expansion coefficient mismatch and fabric damage induced by drilling, in addition to the negative impact of increased weight from the fasteners. Adhesive bonding, on the other hand, is incompatible with thermoplastic resins owing to their chemically inert properties, requiring excessive surface preparation.
 
