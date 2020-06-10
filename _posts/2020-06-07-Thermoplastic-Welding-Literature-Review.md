@@ -22,8 +22,9 @@ So now, consider that two or more thermoplastic independent parts, for now on ca
 
 Well, mechanical fastenings methods exhibit problems arising from stress concentrations, thermal expansion coefficient mismatch and fabric damage induced by drilling, in addition to the negative impact of increased weight from the fasteners. Adhesive bonding, on the other hand, is incompatible with thermoplastic resins owing to their chemically inert properties, requiring excessive surface preparation.
 
-To overcome these limitations, thermoplastics can be welded, thanks to their ability in softening and flowing, as previously mentioned. Thermoplastic composite welding is defined as the joining of two or more parts together by softening and consolidating under pressure of their common interface. The efficiency of this welding is evaluated by comparing the weldline strength to the virginal bulk strength.
+To prevent these issues related to traditional techniques, welding, also known as fusion bonding, is considered as the most suitable process for joining thermoplastic composite parts. This process takes the advantage of uniform stress distribution, less sensitive to surface treatment, short cycle times and cost-effective process. The Defense and Space Group of the Boeing Company reported labour savings greater than 61% could be obtained by welding a composite wing structure as compared to a bolted one.
 
+Thanks to their ability in softening and flowing, thermoplastics can be welded. Thermoplastic composite welding is defined as the joining of two or more parts together by softening and consolidating under pressure of their common interface. The efficiency of this welding is evaluated by comparing the weldline strength to the virginal bulk strength.
 
 ![GitHub Logo]({{ site.url }}/assets/images/literature/consolidation.PNG)
 
