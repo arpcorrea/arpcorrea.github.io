@@ -47,14 +47,11 @@ The adherent’s surface is never smooth at any scale, showing a self-affine pro
 
 
 <figure>
-<img src="/assets/images/literature/roughness.png" alt="drawing"  style="width:700px;"/>
+<img src="/assets/images/literature/roughness.png" alt="drawing"  style="width:500px;"/>
 <figcaption>Random Roughness Measurement.</figcaption>
 </figure>
 
-<p>
-    <img src="https://arpcorrea.github.io/assets/images/literature/roughness.png" alt>
-    <em> Random Roughness Measurement</em>
-</p>
+
 
 Once the reader understood that the adherent’s surface is rough, lets continue the explanation over intimate contact. In order maximize the contact area of two or more adherents, external pressure is applied in order to deform these asperities, like “spreading” them. Simultaneously, heat is applied in order to make the material more flexible and allow resin flow to fulfill the void-spots. This would, ideally, create a complete and tight mechanical contact between the adherents.
 
