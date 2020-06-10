@@ -88,4 +88,4 @@ At t=t0, the chains have no minor chains diffusing through the interface, and th
 
 Finally, The weld strength, &#963;, is proportional to the interpenetration depth &#935;, which is related to the minor chain length &#935; ~  l^(1/2). The ultimate weld strength, &#963;∞, is achieved when the interpenetration depth and the minor chain length reach their maximum values &#935;∞ and L, respectively. 
 
-
+That is it! If you need a more technical information about these topics <a href="mailto:andre.rittner-pires-correa.1@ens.etsmtl.ca?subject=[Blog]">send me an email </a>. I will be happy to support you with relevant works.
