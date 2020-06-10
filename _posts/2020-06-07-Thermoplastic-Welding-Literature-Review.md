@@ -12,7 +12,7 @@ tags:
 
 
 <p>
-    <img src="({{ site.url }}/assets/images/literature/thermoplastic.png)" alt="dominating_sets_example2"/>
+    <img src="https://arpcorrea.github.io/assets/images/literature/thermoplastic.png alt="dominating_sets_example2"/>
     <br>
     <em>Fig. 2: The minimum dominating set of a graph</em>
 </p>
