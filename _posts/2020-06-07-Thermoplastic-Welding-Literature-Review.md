@@ -18,9 +18,7 @@ The scope of this post is to share in a friendly language the fundamentals of co
 
 Alright, so now we can get back and define thermoplastic! Thermoplastics can be considered as ensembles of randomly packed and entangled chains, in which their chain mobility is given by the monomer features, such as weight, compounds and polar groups. When heated, this chain entanglement becomes more flexible with increased mobility, enabling the material to soften and flow. 
 
-![GitHub Logo]({{ site.url }}/assets/images/literature/thermoplastic.png)
 
-test
 <p>
     <img src="https://arpcorrea.github.io/assets/images/literature/thermoplastic.png" alt>
     <em>Thermoplastic Schematic Structure </em>
